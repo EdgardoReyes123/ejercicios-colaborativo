@@ -1,20 +1,27 @@
 body{
-    background: #BDBDBD;
-}
-body img{
-    margin: auto;
-    width: 300px;
-    height: 150px;
-    align-items: center;
+    background: #cac9c9;
 }
 .container {
     position: relative;
-    text-align: center;
     color: black;
   }
-.top{
+.top,top-2{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.portfolio{
+    width: 1325px;
+    height: 300px;
+    background: white;
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 10px;
+
+}
+.tab{
+    margin: auto;
 }
