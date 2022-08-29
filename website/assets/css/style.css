@@ -25,3 +25,15 @@ body{
 .tab{
     margin: auto;
 }
+
+.thumb1 { 
+  background: url(https://blog.lastpass.com/wp-content/uploads/sites/20/2020/07/LastPass-blog-header-image-resizing-2-1-900x300.png) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
+}
+.img-cuadrada{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+}
